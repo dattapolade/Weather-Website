@@ -1,0 +1,67 @@
+body {
+    background-repeat: no-repeat;
+    background-image: url("https://myradar.com/static/background-a089d87ba11e1a4c45a8efa960b86092.jpg");
+    background-position: absolute;
+}
+
+.fa-sun {
+    color: red;
+}
+
+.navbar {
+    margin-left: 20px;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    background-image: url("https://myradar.com/static/background-a089d87ba11e1a4c45a8efa960b86092.jpg");
+    background-position: absolute;
+}
+
+.heading {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+.container {
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 40%;
+}
+
+p {
+    margin-top: 1 rem;
+    text-align: center;
+    color: white;
+}
+
+.op {
+    border-radius: 7px;
+    display: inline-block;
+    opacity: 0.7;
+    margin-left: 38%;
+    margin-top: 15px;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5), 0 0 1px rgba(0, 0, 0, 0.5);
+    background-color: rgb(147, 159, 168);
+    border: none;
+}
+
+input {
+    border-radius: 3px;
+    padding: 5px;
+
+}
+
+button {
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(220, 231, 231);
+}
+
+.fa-sun-cloud {
+    color: red;
+}

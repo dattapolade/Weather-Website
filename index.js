@@ -2,12 +2,13 @@ const express = require("express");
 const app = express();
 const https = require("https")
 const bodyParser = require("body-parser");
+const path = require('path');
 
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.set('view engine', 'ejs');
-app.set('views', './views');
-
+app.set('views', path.join(__dirname, 'views'));
+console.log('Views directory:', app.get('views')); 
 app.get("/", (req, res) => {
     res.render("index", { t: null });
 })

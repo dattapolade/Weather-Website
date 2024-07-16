@@ -40,7 +40,7 @@ app.post("/", async (req, res) => {
         res.send(err);
     } 
 })
-
-app.listen(1400, () => {
+const port = process.env.PORT || 1400;
+app.listen(port, () => {
     console.log("i am back ");
 })
